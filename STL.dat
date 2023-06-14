@@ -1,0 +1,29 @@
+#------------------------------------------------------------------------
+# STL.dat
+#------------------------------------------------------------------------
+# Énumération des objets de la simulation dans le 
+# plan de l'écliptique :
+#	- Nom de l'objet (occupe toute la ligne)
+#	- Masse de l'objet (kg)
+#	- Position cartésienne (x, y) en km, dans l'écliptique
+#	  sur une même ligne, deux nombres séparés, le premier pour x
+#	- Vitesse initiale (dx, dy) en km/s
+#	  sur une même ligne, deux nombres séparés, le premier pour dx
+# Les lignes vides et les lignes commençant par un « # » (commentaire) 
+# sont ignorées
+#
+
+Soleil
+1,9891e30
+0,0			0,0
+0,0			9,2e-5
+
+Terre
+5,9722e24
+-1,471000e8 0,0
+0,0			-30,28036
+
+Lune
+7,342e22
+-1,474850e8	0,0
+0,0			-31,285
