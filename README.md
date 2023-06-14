@@ -7,7 +7,7 @@
 
 ## 1. Subject
 
-As part of the mathematics project, we will need to design (in C) the numerical simulation program of the solar system. Like any realistic project, this is a cross-disciplinary project requiring skills from different domains:
+As part of a mathematics project, we will need to design (in C) the numerical simulation program of the solar system. Like any realistic project, this is a cross-disciplinary project requiring skills from different domains:
 - Physics, algebra, and analysis: modeling part
 - Numerical mathematics: integration method
 - Algorithmics and code production: computer science.
