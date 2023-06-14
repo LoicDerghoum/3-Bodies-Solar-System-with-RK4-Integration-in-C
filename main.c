@@ -13,7 +13,7 @@
 // make && ./sysol05 365 100 STL.DAT > data.csv
 // Fonctionne uniquement sur macos (setlocale)
 
-bool debug_mode = true; // Change si le fichier csv est séparé en ';' ou en '\t'
+bool debug_mode = false; // Change si le fichier csv est séparé en ';' ou en '\t'
 
 	/*
 	 * Projet Math 2023
@@ -155,7 +155,7 @@ int main(int argc, char *argv[]) {
 
         //debug("d = %le", d);
 
-        for(int i = 1; i <= jours * ppjour + 2; i++)
+        for(int i = 0; i <= jours * ppjour + 1; i++)
         {
 
             // Affichage :
