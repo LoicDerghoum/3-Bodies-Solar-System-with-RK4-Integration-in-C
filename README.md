@@ -60,7 +60,7 @@ The numeric values related to the three celestial bodies necessary for our simul
 ### 2.2 Numeric
 They will be contained in a text file that needs to be processed by our program (see section 3.3). Only the universal gravitational constant 𝐺 is given here:
 
-    $(𝐺 = 6.6742 × 10^(-11) m^3 · kg^(-1) · s^(-2))
+$(𝐺 = 6.6742 × 10^(-11) m^3 · kg^(-1) · s^(-2))
 
 ### 2.3 Deliverable
 For portability reasons, we are limited to using the headers defined by the SUS4 standard. To simplify, we limit ourself to the following headers, which are more than sufficient:
